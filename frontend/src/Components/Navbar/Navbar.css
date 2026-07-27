@@ -1,0 +1,47 @@
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+}
+
+.menuBurger{
+    gap: 2px;
+    width: 6vmax;
+    height: 3.5vmax;
+    margin:-10px 0 0 -10px;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.navbar-section{
+    display: flex;
+    position: relative;
+}
+.nav-links-icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 2vmax;
+    position: fixed;
+    top: 2vmax;
+    right: 2vmax;
+    cursor: pointer;
+    color: #323232;
+    z-index: 10;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
+}
+.profile-img{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+@media (max-width:400px) {
+    .nav-links-icons{
+        gap: 15px;
+    }
+}
