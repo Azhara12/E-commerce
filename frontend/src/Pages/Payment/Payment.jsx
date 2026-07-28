@@ -164,8 +164,7 @@ const Payment = () => {
             {loading ? (
               <Small />
             ) : (
-              `Pay - ₹${orderInfo?.Total ? Math.round(orderInfo.Total) : 0}`
-            )}
+`             Pay - Rs. ${orderInfo?.Total ? Math.round(orderInfo.Total) : 0}`            )}
           </button>
         </form>
       </div>

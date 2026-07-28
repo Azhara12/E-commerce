@@ -78,7 +78,7 @@ const Cart = () => {
                             <span className="price-text">
                               <b>Price:</b>
                             </span>
-                            <span className="price-num">₹{item.price}</span>
+                            <span className="price-num">Rs{item.price}</span>
                           </span>
                           <span className="price-tag center">
                             <span className="price-text">
@@ -123,7 +123,7 @@ const Cart = () => {
                         </div>
                       </div>
                       <div className="subtotal-text">
-                        ₹{item.quantity * item.price}
+                        Rs{item.quantity * item.price}
                       </div>
                     </div>
                   );
@@ -135,7 +135,7 @@ const Cart = () => {
                   <b>Gross Total</b>
                 </span>
                 <span>
-                  ₹
+                  Rs
                   {cartItems.reduce((acc, item) => {
                     return acc + item.price * item.quantity;
                   }, 0)}
